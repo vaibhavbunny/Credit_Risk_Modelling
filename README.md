@@ -78,30 +78,7 @@ Credit_Risk_Modelling/
 
      ```bash
      pyinstaller --onefile main.py
-     ```
-
-   * *Note: Ensure that the `data/` directory exists and contains the necessary Excel files before running the executable.*
-
-## 📝 Notes
-
-* If you encounter the following error:
-
-  ```
-  ImportError: Missing optional dependency 'openpyxl'. Use pip or conda to install openpyxl.
-  ```
-
-  Install `openpyxl` using:
-
-  ```bash
-  pip install openpyxl
-  ```
-
-* Ensure that the `data/` directory exists. If not, create it using:
-
-  ```python
-  import os
-  os.makedirs('data', exist_ok=True)
-  ```
+     `'
 
 ## 📌 Requirements
 
