@@ -78,7 +78,6 @@ Credit_Risk_Modelling/
 
      ```bash
      pyinstaller --onefile main.py
-     `'
 
 ## 📌 Requirements
 
